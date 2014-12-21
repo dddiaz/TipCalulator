@@ -13,6 +13,7 @@
 		C67A81C61A46A88E00973C8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67A81C51A46A88E00973C8A /* Images.xcassets */; };
 		C67A81C91A46A88E00973C8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C67A81C71A46A88E00973C8A /* LaunchScreen.xib */; };
 		C67A81D51A46A88E00973C8A /* TipCalulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A81D41A46A88E00973C8A /* TipCalulatorTests.swift */; };
+		C67A81DF1A46A99A00973C8A /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A81DE1A46A99A00973C8A /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C67A81CE1A46A88E00973C8A /* TipCalulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67A81D31A46A88E00973C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C67A81D41A46A88E00973C8A /* TipCalulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalulatorTests.swift; sourceTree = "<group>"; };
+		C67A81DE1A46A99A00973C8A /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				C67A81C51A46A88E00973C8A /* Images.xcassets */,
 				C67A81C71A46A88E00973C8A /* LaunchScreen.xib */,
 				C67A81BC1A46A88E00973C8A /* Supporting Files */,
+				C67A81DE1A46A99A00973C8A /* TipCalculatorModel.swift */,
 			);
 			path = TipCalulator;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C67A81DF1A46A99A00973C8A /* TipCalculatorModel.swift in Sources */,
 				C67A81C11A46A88E00973C8A /* ViewController.swift in Sources */,
 				C67A81BF1A46A88E00973C8A /* AppDelegate.swift in Sources */,
 			);
